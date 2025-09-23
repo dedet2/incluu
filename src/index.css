@@ -8,27 +8,27 @@
 }
 
 :root {
-  /* Authentic Incluu Brand Colors - Warm, Professional, Inclusive */
-  --background: oklch(0.98 0.005 60);
-  --foreground: oklch(0.15 0.02 280);
+  /* Authentic Incluu Brand Colors - Professional Tech Consultancy */
+  --background: oklch(0.98 0.002 220);
+  --foreground: oklch(0.12 0.01 220);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.15 0.02 280);
+  --card-foreground: oklch(0.12 0.01 220);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.15 0.02 280);
-  --primary: oklch(0.35 0.08 280);
-  --primary-foreground: oklch(0.98 0.005 60);
-  --secondary: oklch(0.95 0.01 60);
-  --secondary-foreground: oklch(0.15 0.02 280);
-  --muted: oklch(0.96 0.01 60);
-  --muted-foreground: oklch(0.5 0.03 280);
-  --accent: oklch(0.65 0.15 25);
-  --accent-foreground: oklch(0.98 0.005 60);
+  --popover-foreground: oklch(0.12 0.01 220);
+  --primary: oklch(0.25 0.08 210);
+  --primary-foreground: oklch(0.98 0.002 220);
+  --secondary: oklch(0.96 0.005 210);
+  --secondary-foreground: oklch(0.12 0.01 220);
+  --muted: oklch(0.94 0.005 210);
+  --muted-foreground: oklch(0.45 0.02 220);
+  --accent: oklch(0.55 0.12 180);
+  --accent-foreground: oklch(0.98 0.002 220);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.92 0.01 60);
-  --input: oklch(0.92 0.01 60);
-  --ring: oklch(0.65 0.15 25);
-  --radius: 0.75rem;
+  --border: oklch(0.89 0.005 210);
+  --input: oklch(0.89 0.005 210);
+  --ring: oklch(0.55 0.12 180);
+  --radius: 0.5rem;
 }
 
 @theme {
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Subtle background enhancement */
 .hero-gradient {
   background: linear-gradient(135deg, 
-    oklch(0.98 0.005 60) 0%, 
-    oklch(0.97 0.01 45) 50%, 
-    oklch(0.96 0.015 30) 100%);
+    oklch(0.98 0.002 220) 0%, 
+    oklch(0.97 0.008 210) 50%, 
+    oklch(0.96 0.012 200) 100%);
 }

@@ -56,39 +56,41 @@ function App() {
         <div className="container mx-auto px-6 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center shadow-sm">
-                <Shield className="w-6 h-6 text-white" weight="fill" />
-              </div>
-              <div>
-                <span className="text-2xl font-bold text-primary">Incluu</span>
-                <div className="text-xs text-muted-foreground font-medium -mt-1">Consultancy</div>
+              <div className="flex items-center space-x-2">
+                <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded flex items-center justify-center shadow-sm">
+                  <span className="text-white font-bold text-xl">i</span>
+                </div>
+                <div>
+                  <span className="text-2xl font-bold text-primary">incluu</span>
+                  <div className="text-xs text-muted-foreground font-medium -mt-1 uppercase tracking-wide">consultancy</div>
+                </div>
               </div>
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
               <button 
                 onClick={() => scrollToSection('services')} 
-                className="text-foreground hover:text-primary transition-colors"
+                className="text-foreground hover:text-primary transition-colors font-medium"
               >
                 Services
               </button>
               <button 
                 onClick={() => scrollToSection('about')} 
-                className="text-foreground hover:text-primary transition-colors"
+                className="text-foreground hover:text-primary transition-colors font-medium"
               >
-                About
+                About Dr. Dédé
               </button>
               <button 
                 onClick={() => scrollToSection('testimonials')} 
-                className="text-foreground hover:text-primary transition-colors"
+                className="text-foreground hover:text-primary transition-colors font-medium"
               >
-                Testimonials
+                Client Results
               </button>
               <Button 
                 onClick={() => scrollToSection('contact')}
-                className="bg-accent hover:bg-accent/90"
+                className="bg-primary hover:bg-primary/90 font-medium"
               >
-                Get Consultation
+                Schedule Consultation
               </Button>
             </div>
           </nav>
@@ -100,16 +102,16 @@ function App() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center space-y-8">
             <div className="space-y-4">
-              <Badge variant="secondary" className="text-sm font-medium">
+              <Badge variant="secondary" className="text-sm font-medium bg-primary/10 text-primary border-primary/20">
                 Black-Woman-Owned • Tech Equity Pioneer
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                Transforming Organizations Through 
-                <span className="text-accent block">Inclusive Tech Leadership</span>
+                Expert AI Governance & 
+                <span className="text-accent block">Tech Equity Solutions</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                Dr. Dedé Wilson leads breakthrough tech equity and AI governance solutions, delivering 
-                measurable impact: $200M+ in cost savings and $500M+ in new market access for forward-thinking organizations.
+                Dr. Dédé Wilson delivers transformational tech equity and AI governance consulting, generating 
+                proven results: <strong className="text-accent">$200M+ in cost savings</strong> and <strong className="text-accent">$500M+ in market expansion</strong> for enterprise clients.
               </p>
             </div>
 
@@ -134,20 +136,20 @@ function App() {
 
             {/* Impact Metrics */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-              <div className="text-center p-6 rounded-xl bg-card/50 backdrop-blur-sm border border-border/50">
-                <div className="text-4xl font-bold text-accent mb-2">$200M+</div>
-                <div className="text-muted-foreground font-medium">Cost Savings Generated</div>
-                <div className="text-xs text-muted-foreground/80 mt-1">Through strategic compliance</div>
+              <div className="text-center p-6 rounded-xl bg-card border border-border shadow-sm hover:shadow-md transition-shadow">
+                <div className="text-4xl font-bold text-primary mb-2">$200M+</div>
+                <div className="text-foreground font-semibold mb-1">Cost Savings Generated</div>
+                <div className="text-xs text-muted-foreground">Strategic regulatory compliance</div>
               </div>
-              <div className="text-center p-6 rounded-xl bg-card/50 backdrop-blur-sm border border-border/50">
+              <div className="text-center p-6 rounded-xl bg-card border border-border shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-4xl font-bold text-accent mb-2">$500M+</div>
-                <div className="text-muted-foreground font-medium">Market Access Unlocked</div>
-                <div className="text-xs text-muted-foreground/80 mt-1">Via inclusive innovation</div>
+                <div className="text-foreground font-semibold mb-1">Market Access Unlocked</div>
+                <div className="text-xs text-muted-foreground">Inclusive innovation strategies</div>
               </div>
-              <div className="text-center p-6 rounded-xl bg-card/50 backdrop-blur-sm border border-border/50">
-                <div className="text-4xl font-bold text-accent mb-2">15+</div>
-                <div className="text-muted-foreground font-medium">Years of Expertise</div>
-                <div className="text-xs text-muted-foreground/80 mt-1">Pioneering tech equity</div>
+              <div className="text-center p-6 rounded-xl bg-card border border-border shadow-sm hover:shadow-md transition-shadow">
+                <div className="text-4xl font-bold text-primary mb-2">15+</div>
+                <div className="text-foreground font-semibold mb-1">Years of Expertise</div>
+                <div className="text-xs text-muted-foreground">Tech equity & AI governance</div>
               </div>
             </div>
           </div>
@@ -270,33 +272,35 @@ function App() {
             <div className="space-y-6">
               <div className="space-y-4">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                  Meet Dr. Dedé Wilson
+                  Meet Dr. Dédé Wilson
                 </h2>
                 <p className="text-xl text-accent font-medium">
-                  Pioneering Tech Equity • AI Governance Expert • Inclusive Innovation Leader
+                  AI Governance Expert • Tech Equity Pioneer • Inclusive Innovation Strategist
                 </p>
               </div>
               
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Dr. Dedé Wilson is a visionary leader at the intersection of technology, equity, and social impact. 
-                  As founder and principal of Incluu, she has spent over 15 years developing frameworks that help 
-                  organizations not just comply with regulations, but thrive through inclusive innovation.
+                  Dr. Dédé Wilson is a recognized leader in AI governance and tech equity, bringing over 15 years 
+                  of expertise to help organizations navigate the complex intersection of technology, ethics, and 
+                  regulatory compliance. As founder and principal of incluu consultancy, she transforms how 
+                  enterprises approach inclusive innovation.
                 </p>
                 <p>
-                  Her groundbreaking work in AI governance and tech equity has generated quantifiable results: 
-                  over $200 million in cost savings through proactive compliance strategies and $500 million in 
-                  new market opportunities unlocked by embracing diverse perspectives and inclusive design principles.
+                  Her strategic frameworks have delivered quantifiable business impact: over <strong className="text-accent">$200 million 
+                  in cost savings</strong> through proactive compliance strategies and <strong className="text-accent">$500 million in new market 
+                  opportunities</strong> by implementing inclusive design principles and equitable technology solutions.
                 </p>
                 <p>
-                  Dr. Wilson's expertise spans regulatory compliance, algorithmic bias detection, inclusive product 
-                  development, and organizational transformation. She has advised Fortune 500 companies, educational 
-                  institutions, and government agencies on creating technology ecosystems that serve all stakeholders.
+                  Dr. Wilson's expertise encompasses AI ethics, algorithmic bias detection, regulatory compliance, 
+                  inclusive product development, and organizational transformation. She has advised Fortune 500 
+                  companies, educational institutions, and government agencies on creating technology ecosystems 
+                  that serve diverse stakeholders while driving business growth.
                 </p>
                 <p>
-                  As a sought-after speaker and thought leader, Dr. Wilson regularly presents at major industry 
-                  conferences and has been featured in leading publications for her innovative approaches to 
-                  tech governance and equity.
+                  A sought-after thought leader and keynote speaker, Dr. Wilson regularly presents at major 
+                  industry conferences and has been featured in leading publications for her innovative approaches 
+                  to AI governance, tech equity, and inclusive innovation strategies.
                 </p>
               </div>
 
@@ -327,7 +331,7 @@ function App() {
                     <Users className="w-16 h-16 text-white" weight="light" />
                   </div>
                   <div className="space-y-2">
-                    <p className="text-muted-foreground text-sm font-medium">Dr. Dedé Wilson</p>
+                    <p className="text-muted-foreground text-sm font-medium">Dr. Dédé Wilson</p>
                     <p className="text-muted-foreground text-xs">Founder & Principal Consultant</p>
                   </div>
                 </div>
@@ -371,9 +375,9 @@ function App() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <blockquote className="text-lg text-foreground italic">
-                  "Dr. Wilson's transformative approach to educational technology equity has revolutionized 
+                  "Dr. Dédé Wilson's transformative approach to educational technology equity has revolutionized 
                   how we think about inclusive learning environments. Her frameworks don't just ensure compliance—they 
-                  drive innovation and student success."
+                  drive innovation and measurable student success outcomes."
                 </blockquote>
                 <div className="text-sm text-muted-foreground">
                   <strong>The Burke School</strong> - Independent Educational Institution
@@ -394,9 +398,9 @@ function App() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <blockquote className="text-lg text-foreground italic">
-                  "Incluu's strategic AI governance framework saved us $15M in potential compliance penalties 
-                  and opened three new market segments worth $200M. Dr. Wilson's expertise turned regulatory 
-                  challenges into competitive advantages."
+                  "incluu's strategic AI governance framework prevented $15M in potential compliance penalties 
+                  and opened three new market segments worth $200M+ in revenue potential. Dr. Dédé Wilson's expertise 
+                  transforms regulatory challenges into sustainable competitive advantages."
                 </blockquote>
                 <div className="text-sm text-muted-foreground">
                   <strong>Global Technology Corporation</strong> - Fortune 500 Client
@@ -417,8 +421,9 @@ function App() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <blockquote className="text-lg text-foreground italic">
-                  "The custom workshop series revolutionized our leadership's understanding of tech equity. 
-                  The practical frameworks are now integral to our decision-making process."
+                  "The executive workshop series transformed our leadership team's understanding of tech equity 
+                  and AI governance. Dr. Dédé Wilson's practical frameworks are now integral to our strategic 
+                  decision-making and risk management processes."
                 </blockquote>
                 <div className="text-sm text-muted-foreground">
                   <strong>Regional Healthcare System</strong> - Healthcare Organization
@@ -456,19 +461,19 @@ function App() {
         <div className="container mx-auto max-w-4xl px-6">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Ready to Transform Your Organization?
+              Ready to Drive Measurable Impact?
             </h2>
             <p className="text-xl text-muted-foreground">
-              Schedule a consultation to discuss your tech equity and governance needs
+              Partner with Dr. Dédé Wilson to transform your AI governance and tech equity strategy
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Card>
               <CardHeader>
-                <CardTitle>Schedule Consultation</CardTitle>
+                <CardTitle>Executive Consultation</CardTitle>
                 <CardDescription>
-                  Fill out this form and we'll contact you within 24 hours
+                  Connect with Dr. Dédé Wilson to discuss your strategic needs. Response within 24 hours.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -583,18 +588,18 @@ function App() {
         <div className="container mx-auto max-w-6xl px-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center shadow-sm">
-                <Shield className="w-5 h-5 text-white" weight="fill" />
+              <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded flex items-center justify-center shadow-sm">
+                <span className="text-white font-bold text-sm">i</span>
               </div>
               <div>
-                <span className="text-lg font-bold text-primary">Incluu</span>
-                <div className="text-xs text-muted-foreground font-medium -mt-0.5">Consultancy</div>
+                <span className="text-lg font-bold text-primary">incluu</span>
+                <div className="text-xs text-muted-foreground font-medium -mt-0.5 uppercase tracking-wide">consultancy</div>
               </div>
             </div>
             
             <div className="text-sm text-muted-foreground text-center md:text-right">
-              <p>© 2024 Incluu Consultancy. Proudly Black-Woman-Owned.</p>
-              <p>Pioneering inclusive tech leadership and AI governance solutions worldwide.</p>
+              <p>© 2024 incluu consultancy. Proudly Black-Woman-Owned.</p>
+              <p>Expert AI governance and tech equity solutions • Delivering measurable business impact worldwide.</p>
             </div>
           </div>
         </div>
