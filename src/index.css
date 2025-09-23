@@ -8,26 +8,26 @@
 }
 
 :root {
-  /* Authentic Incluu Brand Colors - Professional Tech Consultancy */
-  --background: oklch(0.98 0.002 220);
-  --foreground: oklch(0.12 0.01 220);
+  /* Authentic Incluu Brand Colors - Deep Purple, Indigo, Violet & Cyan */
+  --background: oklch(0.98 0.005 280);
+  --foreground: oklch(0.15 0.02 280);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.12 0.01 220);
+  --card-foreground: oklch(0.15 0.02 280);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.12 0.01 220);
-  --primary: oklch(0.25 0.08 210);
-  --primary-foreground: oklch(0.98 0.002 220);
-  --secondary: oklch(0.96 0.005 210);
-  --secondary-foreground: oklch(0.12 0.01 220);
-  --muted: oklch(0.94 0.005 210);
-  --muted-foreground: oklch(0.45 0.02 220);
-  --accent: oklch(0.55 0.12 180);
-  --accent-foreground: oklch(0.98 0.002 220);
+  --popover-foreground: oklch(0.15 0.02 280);
+  --primary: oklch(0.35 0.15 280); /* Deep purple */
+  --primary-foreground: oklch(0.98 0.005 280);
+  --secondary: oklch(0.45 0.12 270); /* Indigo */
+  --secondary-foreground: oklch(0.98 0.005 280);
+  --muted: oklch(0.95 0.008 280);
+  --muted-foreground: oklch(0.45 0.03 280);
+  --accent: oklch(0.65 0.18 195); /* Cyan accent */
+  --accent-foreground: oklch(0.98 0.005 280);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.89 0.005 210);
-  --input: oklch(0.89 0.005 210);
-  --ring: oklch(0.55 0.12 180);
+  --border: oklch(0.90 0.008 280);
+  --input: oklch(0.90 0.008 280);
+  --ring: oklch(0.55 0.15 250); /* Violet focus ring */
   --radius: 0.5rem;
 }
 
@@ -70,10 +70,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Subtle background enhancement */
+/* Subtle background enhancement with purple/violet gradient */
 .hero-gradient {
   background: linear-gradient(135deg, 
-    oklch(0.98 0.002 220) 0%, 
-    oklch(0.97 0.008 210) 50%, 
-    oklch(0.96 0.012 200) 100%);
+    oklch(0.98 0.005 280) 0%, 
+    oklch(0.97 0.012 270) 40%, 
+    oklch(0.96 0.018 260) 100%);
 }
