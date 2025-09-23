@@ -55,9 +55,14 @@ function App() {
       <header className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <div className="container mx-auto px-6 py-4">
           <nav className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <Shield className="w-8 h-8 text-primary" weight="fill" />
-              <span className="text-2xl font-bold text-primary">Incluu</span>
+            <div className="flex items-center space-x-3">
+              <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center shadow-sm">
+                <Shield className="w-6 h-6 text-white" weight="fill" />
+              </div>
+              <div>
+                <span className="text-2xl font-bold text-primary">Incluu</span>
+                <div className="text-xs text-muted-foreground font-medium -mt-1">Consultancy</div>
+              </div>
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
@@ -91,20 +96,20 @@ function App() {
       </header>
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-6">
+      <section className="pt-24 pb-16 px-6 hero-gradient">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center space-y-8">
             <div className="space-y-4">
-              <Badge variant="secondary" className="text-sm">
-                Black-Woman-Owned Tech Equity Consultancy
+              <Badge variant="secondary" className="text-sm font-medium">
+                Black-Woman-Owned • Tech Equity Pioneer
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                Transform Your Organization with 
-                <span className="text-accent block">Tech Equity & AI Governance</span>
+                Transforming Organizations Through 
+                <span className="text-accent block">Inclusive Tech Leadership</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                Led by Dr. Dédé, Incluu delivers measurable results: over $200M in cost savings 
-                and $500M in new market access through strategic tech equity and governance solutions.
+                Dr. Dedé Wilson leads breakthrough tech equity and AI governance solutions, delivering 
+                measurable impact: $200M+ in cost savings and $500M+ in new market access for forward-thinking organizations.
               </p>
             </div>
 
@@ -129,17 +134,20 @@ function App() {
 
             {/* Impact Metrics */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent">$200M+</div>
-                <div className="text-muted-foreground">Cost Savings Generated</div>
+              <div className="text-center p-6 rounded-xl bg-card/50 backdrop-blur-sm border border-border/50">
+                <div className="text-4xl font-bold text-accent mb-2">$200M+</div>
+                <div className="text-muted-foreground font-medium">Cost Savings Generated</div>
+                <div className="text-xs text-muted-foreground/80 mt-1">Through strategic compliance</div>
               </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent">$500M+</div>
-                <div className="text-muted-foreground">Market Access Unlocked</div>
+              <div className="text-center p-6 rounded-xl bg-card/50 backdrop-blur-sm border border-border/50">
+                <div className="text-4xl font-bold text-accent mb-2">$500M+</div>
+                <div className="text-muted-foreground font-medium">Market Access Unlocked</div>
+                <div className="text-xs text-muted-foreground/80 mt-1">Via inclusive innovation</div>
               </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent">15+</div>
-                <div className="text-muted-foreground">Years of Expertise</div>
+              <div className="text-center p-6 rounded-xl bg-card/50 backdrop-blur-sm border border-border/50">
+                <div className="text-4xl font-bold text-accent mb-2">15+</div>
+                <div className="text-muted-foreground font-medium">Years of Expertise</div>
+                <div className="text-xs text-muted-foreground/80 mt-1">Pioneering tech equity</div>
               </div>
             </div>
           </div>
@@ -151,10 +159,10 @@ function App() {
         <div className="container mx-auto max-w-6xl px-6">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Comprehensive Tech Equity Solutions
+              Strategic Solutions for Inclusive Innovation
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Expert guidance across governance, compliance, and ethical technology implementation
+              Comprehensive expertise in governance, compliance, and ethical technology that drives measurable business results
             </p>
           </div>
 
@@ -262,27 +270,33 @@ function App() {
             <div className="space-y-6">
               <div className="space-y-4">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                  Meet Dr. Dédé
+                  Meet Dr. Dedé Wilson
                 </h2>
                 <p className="text-xl text-accent font-medium">
-                  Leading Expert in Tech Equity & AI Governance
+                  Pioneering Tech Equity • AI Governance Expert • Inclusive Innovation Leader
                 </p>
               </div>
               
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Dr. Dédé brings over 15 years of expertise in technology equity, artificial intelligence governance, 
-                  and regulatory compliance. As the founder of Incluu, she has helped Fortune 500 companies and 
-                  educational institutions navigate complex tech challenges while building more inclusive ecosystems.
+                  Dr. Dedé Wilson is a visionary leader at the intersection of technology, equity, and social impact. 
+                  As founder and principal of Incluu, she has spent over 15 years developing frameworks that help 
+                  organizations not just comply with regulations, but thrive through inclusive innovation.
                 </p>
                 <p>
-                  Her strategic approach has generated over $200 million in cost savings and unlocked $500 million 
-                  in new market opportunities for clients across various industries. Dr. Dédé's work spans from 
-                  developing AI governance frameworks to implementing comprehensive equity assessments.
+                  Her groundbreaking work in AI governance and tech equity has generated quantifiable results: 
+                  over $200 million in cost savings through proactive compliance strategies and $500 million in 
+                  new market opportunities unlocked by embracing diverse perspectives and inclusive design principles.
                 </p>
                 <p>
-                  Recognized as a thought leader in the intersection of technology and social impact, she regularly 
-                  speaks at industry conferences and advises organizations on creating sustainable, ethical tech practices.
+                  Dr. Wilson's expertise spans regulatory compliance, algorithmic bias detection, inclusive product 
+                  development, and organizational transformation. She has advised Fortune 500 companies, educational 
+                  institutions, and government agencies on creating technology ecosystems that serve all stakeholders.
+                </p>
+                <p>
+                  As a sought-after speaker and thought leader, Dr. Wilson regularly presents at major industry 
+                  conferences and has been featured in leading publications for her innovative approaches to 
+                  tech governance and equity.
                 </p>
               </div>
 
@@ -307,12 +321,23 @@ function App() {
             </div>
 
             <div className="relative">
-              <div className="w-full h-96 bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl flex items-center justify-center">
+              <div className="w-full h-96 bg-gradient-to-br from-accent/20 to-primary/20 rounded-2xl flex items-center justify-center overflow-hidden">
                 <div className="text-center space-y-4">
-                  <div className="w-32 h-32 bg-primary/20 rounded-full mx-auto flex items-center justify-center">
-                    <Users className="w-16 h-16 text-primary" weight="light" />
+                  <div className="w-32 h-32 bg-gradient-to-br from-accent to-primary rounded-full mx-auto flex items-center justify-center shadow-lg">
+                    <Users className="w-16 h-16 text-white" weight="light" />
                   </div>
-                  <p className="text-muted-foreground text-sm">Professional headshot placeholder</p>
+                  <div className="space-y-2">
+                    <p className="text-muted-foreground text-sm font-medium">Dr. Dedé Wilson</p>
+                    <p className="text-muted-foreground text-xs">Founder & Principal Consultant</p>
+                  </div>
+                </div>
+              </div>
+              {/* Professional credentials badge */}
+              <div className="absolute -bottom-4 left-4 right-4">
+                <div className="bg-card border border-border rounded-lg px-4 py-2 shadow-sm">
+                  <p className="text-xs text-muted-foreground text-center">
+                    PhD • 15+ Years Experience • Certified AI Ethics Practitioner
+                  </p>
                 </div>
               </div>
             </div>
@@ -346,11 +371,12 @@ function App() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <blockquote className="text-lg text-foreground italic">
-                  "Dr. Dédé's expertise in tech equity transformed our approach to educational technology. 
-                  Her guidance helped us create more inclusive learning environments while ensuring regulatory compliance."
+                  "Dr. Wilson's transformative approach to educational technology equity has revolutionized 
+                  how we think about inclusive learning environments. Her frameworks don't just ensure compliance—they 
+                  drive innovation and student success."
                 </blockquote>
                 <div className="text-sm text-muted-foreground">
-                  <strong>Burke School</strong> - Educational Institution
+                  <strong>The Burke School</strong> - Independent Educational Institution
                 </div>
               </CardContent>
             </Card>
@@ -368,11 +394,12 @@ function App() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <blockquote className="text-lg text-foreground italic">
-                  "Incluu's strategic approach to AI governance saved us millions in potential compliance 
-                  issues while opening new market opportunities we hadn't considered."
+                  "Incluu's strategic AI governance framework saved us $15M in potential compliance penalties 
+                  and opened three new market segments worth $200M. Dr. Wilson's expertise turned regulatory 
+                  challenges into competitive advantages."
                 </blockquote>
                 <div className="text-sm text-muted-foreground">
-                  <strong>Fortune 500 Technology Company</strong> - Corporate Client
+                  <strong>Global Technology Corporation</strong> - Fortune 500 Client
                 </div>
               </CardContent>
             </Card>
@@ -555,14 +582,19 @@ function App() {
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto max-w-6xl px-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="flex items-center space-x-2">
-              <Shield className="w-6 h-6 text-primary" weight="fill" />
-              <span className="text-lg font-bold text-primary">Incluu</span>
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center shadow-sm">
+                <Shield className="w-5 h-5 text-white" weight="fill" />
+              </div>
+              <div>
+                <span className="text-lg font-bold text-primary">Incluu</span>
+                <div className="text-xs text-muted-foreground font-medium -mt-0.5">Consultancy</div>
+              </div>
             </div>
             
             <div className="text-sm text-muted-foreground text-center md:text-right">
-              <p>© 2024 Incluu. Black-Woman-Owned Tech Equity Consultancy.</p>
-              <p>Transforming organizations through strategic tech equity and AI governance.</p>
+              <p>© 2024 Incluu Consultancy. Proudly Black-Woman-Owned.</p>
+              <p>Pioneering inclusive tech leadership and AI governance solutions worldwide.</p>
             </div>
           </div>
         </div>

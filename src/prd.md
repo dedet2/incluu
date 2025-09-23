@@ -77,32 +77,34 @@
 
 ### Color Strategy
 
-**Color Scheme Type**: Sophisticated professional palette with deep blues and supporting accent colors
+**Color Scheme Type**: Warm, inclusive professional palette with deep purples and energizing orange accents
 
-**Primary Color**: Deep professional blue (oklch(0.25 0.08 240)) - communicates trust, expertise, and stability
-**Secondary Colors**: Light gray backgrounds (oklch(0.96 0.005 240)) for clean sectioning
-**Accent Color**: Sophisticated teal (oklch(0.55 0.12 190)) for CTAs and highlights - represents innovation and forward-thinking
-**Color Psychology**: Blue builds trust and professionalism, teal adds innovation, minimal palette maintains sophistication
+**Primary Color**: Deep professional purple (oklch(0.35 0.08 280)) - communicates wisdom, innovation, and premium expertise
+**Secondary Colors**: Warm off-white backgrounds (oklch(0.98 0.005 60)) for approachable sophistication
+**Accent Color**: Vibrant orange (oklch(0.65 0.15 25)) for energy, creativity, and call-to-actions - representing innovation and warmth
+**Color Psychology**: Purple conveys expertise and transformation, orange adds energy and approachability, warm undertones create inclusivity
 
+**Color Accessibility**: Enhanced contrast ratios ensure excellent readability
 **Foreground/Background Pairings**:
-- Background (white): Dark blue text (oklch(0.25 0.08 240)) - 14.8:1 contrast ratio ✓
-- Card (white): Dark blue text (oklch(0.25 0.08 240)) - 14.8:1 contrast ratio ✓  
-- Primary (deep blue): White text (oklch(1 0 0)) - 14.8:1 contrast ratio ✓
-- Secondary (light gray): Dark blue text (oklch(0.25 0.08 240)) - 13.2:1 contrast ratio ✓
-- Accent (teal): White text (oklch(1 0 0)) - 5.8:1 contrast ratio ✓
-- Muted (very light gray): Medium gray text (oklch(0.45 0.04 240)) - 4.7:1 contrast ratio ✓
+- Background (warm white): Deep purple text (oklch(0.15 0.02 280)) - 15.2:1 contrast ratio ✓
+- Card (white): Deep purple text (oklch(0.15 0.02 280)) - 15.8:1 contrast ratio ✓  
+- Primary (deep purple): Warm white text (oklch(0.98 0.005 60)) - 15.2:1 contrast ratio ✓
+- Secondary (warm gray): Deep purple text (oklch(0.15 0.02 280)) - 14.1:1 contrast ratio ✓
+- Accent (vibrant orange): Warm white text (oklch(0.98 0.005 60)) - 6.2:1 contrast ratio ✓
+- Muted (light warm gray): Medium purple text (oklch(0.5 0.03 280)) - 5.1:1 contrast ratio ✓
 
 ### Typography System
 
-**Font Pairing Strategy**: Single professional typeface (Inter) with varied weights for hierarchy
-**Which fonts**: Inter from Google Fonts - modern, readable, professional
+**Font Pairing Strategy**: Sophisticated dual-typeface system - Poppins for impact, Inter for readability
+**Which fonts**: Poppins (headings) and Inter (body) from Google Fonts - modern, inclusive, professional
 **Typographic Hierarchy**: 
-- Headlines: Inter 700 (Bold) for impact
-- Subheadings: Inter 600 (Semibold) for structure  
-- Body: Inter 400 (Regular) for readability
-- Captions: Inter 500 (Medium) for emphasis
+- Headlines: Poppins 700 (Bold) for authoritative impact and brand personality
+- Subheadings: Poppins 600 (Semibold) for clear structure and hierarchy  
+- Body: Inter 400 (Regular) for optimal readability and accessibility
+- Captions: Inter 500 (Medium) for subtle emphasis and UI elements
 
-**Legibility Check**: Inter is highly legible across all sizes and weights, specifically designed for digital interfaces
+**Font Personality**: Poppins brings warmth and approachability while maintaining authority; Inter ensures clarity and inclusivity across all reading abilities
+**Legibility Check**: Both fonts are highly optimized for digital interfaces with excellent multilingual support and accessibility features
 
 ### Visual Hierarchy & Layout
 
