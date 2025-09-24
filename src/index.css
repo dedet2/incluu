@@ -9,25 +9,25 @@
 
 :root {
   /* Authentic Incluu Brand Colors - Deep Purple, Indigo, Violet & Cyan */
-  --background: oklch(0.98 0.005 280);
-  --foreground: oklch(0.15 0.02 280);
+  --background: oklch(98.4% 0.019 200.873);
+  --foreground: oklch(49.1% 0.27 292.581);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.15 0.02 280);
+  --card-foreground: oklch(55.4% 0.046 257.417);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.15 0.02 280);
-  --primary: oklch(0.35 0.15 280); /* Deep purple */
-  --primary-foreground: oklch(0.98 0.005 280);
-  --secondary: oklch(0.45 0.12 270); /* Indigo */
-  --secondary-foreground: oklch(0.98 0.005 280);
-  --muted: oklch(0.95 0.008 280);
+  --popover-foreground: oklch(98.4% 0.019 200.873);
+  --primary: oklch(49.1% 0.27 292.581); /* Deep purple */
+  --primary-foreground: oklch(98.4% 0.019 200.873);
+  --secondary: oklch(81.1% 0.111 293.571); /* Indigo */
+  --secondary-foreground: oklch(95.6% 0.045 203.388);
+  --muted: oklch(96.9% 0.016 293.756);
   --muted-foreground: oklch(0.45 0.03 280);
-  --accent: oklch(0.65 0.18 195); /* Cyan accent */
-  --accent-foreground: oklch(0.98 0.005 280);
+  --accent: oklch(71.5% 0.143 215.221); /* Cyan accent */
+  --accent-foreground: oklch(49.1% 0.27 292.581);
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.90 0.008 280);
+  --destructive-foreground: oklch(86.9% 0.022 252.894);
+  --border: oklch(98.4% 0.019 200.873);
   --input: oklch(0.90 0.008 280);
-  --ring: oklch(0.55 0.15 250); /* Violet focus ring */
+  --ring: oklch(98.4% 0.019 200.873); /* Violet focus ring */
   --radius: 0.5rem;
 }
 
