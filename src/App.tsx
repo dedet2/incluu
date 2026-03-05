@@ -124,6 +124,32 @@ function App() {
               >
                 Client Results
               </button>
+              <div className="hidden lg:flex items-center space-x-6 pl-8 border-l border-border">
+                <a 
+                  href="https://grc.incluu.us" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground hover:text-primary transition-colors font-medium text-sm"
+                >
+                  AI GRC Platform
+                </a>
+                <a 
+                  href="https://grc.incluu.us/equity-assessment" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground hover:text-primary transition-colors font-medium text-sm"
+                >
+                  Equity Assessment
+                </a>
+                <a 
+                  href="https://grc.incluu.us/onboarding" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground hover:text-primary transition-colors font-medium text-sm"
+                >
+                  Get Started
+                </a>
+              </div>
               <Button 
                 onClick={() => scrollToSection('contact')}
                 className="bg-primary hover:bg-primary/90 font-medium"

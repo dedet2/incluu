@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { "source": "/grc", "destination": "https://grc.incluu.us", "permanent": false },
+    { "source": "/grc/:path*", "destination": "https://grc.incluu.us/:path*", "permanent": false },
+    { "source": "/equity-assessment", "destination": "https://grc.incluu.us/equity-assessment", "permanent": false },
+    { "source": "/risk-platform", "destination": "https://grc.incluu.us/risk-platform", "permanent": false },
+    { "source": "/schedule", "destination": "https://calendly.com/dr-dede", "permanent": false }
+  ]
+}
